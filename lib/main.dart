@@ -36,7 +36,6 @@ class _CreditScoreScreenState extends State<CreditScoreScreen> {
   // --- Configuration ---
   final String _rpcUrl = dotenv.env['SEPOLIA_RPC_URL']!;
   final String _privateKey = dotenv.env['WALLET_PRIVATE_KEY']!;
-  // PASTE YOUR DEPLOYED CONTRACT ADDRESS HERE
   final String _contractAddress = "0x04Dd1eBa17E0d633feB0767439EF4cF1A722fc57";
 
   late Web3Client _web3client;
